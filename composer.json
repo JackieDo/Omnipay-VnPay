@@ -1,0 +1,34 @@
+{
+    "name": "jackiedo/omnipay-vnpay",
+    "description": "VnPay gateway for Omnipay payment processing library",
+    "keywords": [
+        "gateway",
+        "merchant",
+        "omnipay",
+        "pay",
+        "payment",
+        "purchase",
+        "vnpay"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jackie Do",
+            "email": "anhvudo@gmail.com"
+        }
+    ],
+    "require": {
+        "omnipay/common": "~3.0",
+        "jackiedo/omnipay-validator": "~1.0"
+    },
+    "require-dev": {
+        "omnipay/tests": "~3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Omnipay\\VnPay\\": "src"
+        }
+    },
+    "minimum-stability": "stable"
+}
